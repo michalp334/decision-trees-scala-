@@ -55,7 +55,7 @@ object DecisionTree extends DecisionTreeNode {
       iterEvent(nodes, env, decisionTrack, 0)
     }
 
-    /* choses max EV iterating through list of choices +
+    /* chooses max EV iterating through list of choices +
      * stores the data of the choices in the decisionTrack for future reference
      */
     def chooseBest(choices: List[DTN], env: Environment, decisionTrack: List[DecisionData]): TreeResults = {
